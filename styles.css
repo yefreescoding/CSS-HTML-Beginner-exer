@@ -1,0 +1,167 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(245, 234, 220);
+}
+/*Estilos para la barra de navegación*/
+.barra-nav {
+  display: flex;
+}
+
+.barra-nav div {
+  flex: 1;
+}
+/*Estilos para la pagina del producto*/
+
+.main-product-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+
+  background-color: white;
+  border-radius: 30px;
+  border: none;
+
+  box-shadow: 1px 6px 26px rgba(174, 174, 174, 0.823);
+
+}
+
+.main-product-container div {
+  flex: 1;
+  height: 716px;
+}
+
+/*Estilos para child #1*/
+.img-div {
+  flex: 1;
+  width: 600px;
+}
+  /*estilos para la IMAGEN del preview*/
+.preview-img {
+  flex: 1;
+  max-width: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+/*Estilos para child #2*/
+.product-info {
+  padding: 2%;
+  min-width: 378px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+    /*Estilos para PERFUME*/
+.product-info h3 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+
+  color: rgb(165, 165, 165);
+
+  letter-spacing: 4px;
+  margin: 0;
+  margin-top: 60px;
+} 
+  /*Estilo para titulo*/
+.product-info h1 {
+  font-size: 47px;
+  font-weight: bolder;
+  font-family: Fraunces;
+
+  line-height: 38px;
+
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+  /*Estilos para el parrafo.*/
+.product-info p {
+  font-size: 25px;
+  font-family: Montserrat;
+  font-weight: 600;
+
+  text-align: start;
+
+  color: rgb(161, 161, 161);
+
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+}
+
+.price-tag {
+  margin: 0;
+  margin-bottom: 16px;
+  padding: 0;
+  font-family: Fraunces;
+  font-weight: 700;
+  font-size: 57px;
+  color: rgb(75, 134, 75);
+}
+
+.sale-tag {
+  font-family: Fraunces;
+  font-size: 20px;
+
+  text-decoration: line-through;
+
+  color: rgb(95, 95, 95);
+
+  margin-left: 30px;
+}
+
+.cart-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+}
+
+.cart-button img {
+  margin: 0;
+  margin-right: 10px;
+
+  width: 25px;
+
+}
+
+.cart-button button {
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 600;
+
+  padding: 20px 130px;
+
+  background-color: rgb(71, 126, 71);
+  color: white;
+
+  border: none;
+  border-radius: 12px;
+
+  cursor: pointer;
+
+}
+
+.cart-button button:hover {
+  background-color: rgb(44, 86, 44);
+}

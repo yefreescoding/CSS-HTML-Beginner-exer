@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,600;1,9..144,500;1,9..144,600&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<!--This is the organization of the navegation var-->
+  <nav class="barra-nav">
+   <div>
+    <img src="images/favicon-32x32.png" alt="">
+   </div>
+
+   <div class="barra-link">
+    <span>About us</span>
+    <span>Products</span>
+    <span>Offers</span>
+   </div>
+
+   <div class="barra-button">
+    <button class="sign-button">Sign In</button>
+    <button class="go-button">Go to kart</button>
+   </div>
+    
+  </nav>
+
+<!--This is the organization for the product page.-->
+
+<!--Main container for the product page, it have two child-->
+  <div class="main-product-container">
+    <!--Child #1-->
+    <div class="img-div">
+      <img class="preview-img" src="images/image-product-desktop.jpg" alt="Preview"> 
+    </div>
+    
+    <!--Child #2-->
+    <div class="product-info">
+      <h3>Perfume</h3>
+      <h1> 
+        Gabrielle <br>
+        Essence Eau <br> 
+        De Parfum</h1>
+    
+      <p>
+        A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+        Perfumer-Creator for the House of CHANEL.
+      </p>
+      
+      <div class="prices">
+        <span class="price-tag">$149.99</span>
+        <span class="sale-tag">$169.99</span>
+      </div>
+
+      <div class="cart-button">
+        
+        <button><img class="logo-cart" src="images/icon-cart.svg" alt="icono">Add To Cart</button>
+      </div>
+    </div>
+   
+  </div>
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Yefree De Los Santos</a>.
+  </div>
+</body>
+</html>
